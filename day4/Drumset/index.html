@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="drum-kit">
+    <div class="drum-pad" data-key="65" data-sound="clap">
+      <span>A</span>
+      <p>Clap</p>
+    </div>
+    <div class="drum-pad" data-key="83" data-sound="hihat">
+      <span>S</span>
+      <p>Hi-hat</p>
+    </div>
+    <div class="drum-pad" data-key="68" data-sound="kick">
+      <span>D</span>
+      <p>Kick</p>
+    </div>
+    <div class="drum-pad" data-key="70" data-sound="openhat">
+      <span>F</span>
+      <p>Open Hat</p>
+    </div>
+    <div class="drum-pad" data-key="71" data-sound="boom">
+      <span>G</span>
+      <p>Boom</p>
+    </div>
+    <div class="drum-pad" data-key="72" data-sound="ride">
+      <span>H</span>
+      <p>Ride</p>
+    </div>
+    <div class="drum-pad" data-key="74" data-sound="snare">
+      <span>J</span>
+      <p>Snare</p>
+    </div>
+    <div class="drum-pad" data-key="75" data-sound="tom">
+      <span>K</span>
+      <p>Tom</p>
+    </div>
+    <div class="drum-pad" data-key="76" data-sound="tink">
+      <span>L</span>
+      <p>Tink</p>
+    </div>
+  </div>
+
+  <!-- Sons hébergés publiquement -->
+  <audio data-key="65" src="https://assets.mixkit.co/sfx/preview/mixkit-happy-clap-240.mp3"></audio>
+  <audio data-key="83" src="https://assets.mixkit.co/sfx/preview/mixkit-hip-hop-hit-hat-1729.mp3"></audio>
+  <audio data-key="68" src="https://assets.mixkit.co/sfx/preview/mixkit-big-kick-drum-2983.mp3"></audio>
+  <audio data-key="70" src="https://assets.mixkit.co/sfx/preview/mixkit-open-cymbal-112.mp3"></audio>
+  <audio data-key="71" src="https://assets.mixkit.co/sfx/preview/mixkit-explosion-impact-1684.mp3"></audio>
+  <audio data-key="72" src="https://assets.mixkit.co/sfx/preview/mixkit-ride-cymbal-1127.mp3"></audio>
+  <audio data-key="74" src="https://assets.mixkit.co/sfx/preview/mixkit-snare-drum-808-2296.mp3"></audio>
+  <audio data-key="75" src="https://assets.mixkit.co/sfx/preview/mixkit-tom-drum-558.mp3"></audio>
+  <audio data-key="76" src="https://assets.mixkit.co/sfx/preview/mixkit-tiny-bell-chime-1865.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
