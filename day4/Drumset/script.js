@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   
+    function animatePad(pad) {
       pad.classList.add('playing');
       
       setTimeout(() => {
